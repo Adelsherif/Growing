@@ -55,7 +55,7 @@
     margin: auto;
     padding: 5px;
     border-radius: 50%;
-    background-color: rgb(211, 210, 210);
+    background-color: #fff3e8;
     margin-bottom: 20px;
 }
 .about .imageSection .boxContent .image img {border-radius: 50%;}

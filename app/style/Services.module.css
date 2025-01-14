@@ -9,14 +9,14 @@
     width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(210px, auto);
+    grid-auto-rows: minmax(250px, auto);
     gap: 0;
 }
 .services .imageSection .box{ position: relative;}
 .services .imageSection .box:first-of-type{
     grid-column: 1/2 ;
     grid-row: 1/ 2;
-    background-image: url('../components/services/images/bg-00.png');
+    background-image: url('../components/services/images/S-01.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 500px;
@@ -24,7 +24,7 @@
 .services .imageSection .box:last-of-type{
     grid-column: 2;
     grid-row: 2 ;
-    background-image: url('../components/services/images/bg-01.png');
+    background-image: url('../components/services/images/S-02.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 500px;
