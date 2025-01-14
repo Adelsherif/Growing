@@ -65,6 +65,10 @@
         width: 90%;
         order: 2;
         margin-top: 60px;
+        padding: 10px 10px;
     }
 .contact .contactImage .image{width: 100%;}
+.contact .contactForm form input:last-of-type{
+    width: 100%;
+}
 }
