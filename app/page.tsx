@@ -5,7 +5,7 @@ import Projects from "./components/ourprojects/projects";
 import Services from "./components/services/services";
 import Blogs from "./components/blogs/blogs";
 import About from "./components/about/about";
-import Contact from "./components/contact/contact.tsx";
+import Contact from "./components/contact/contact";
 
 export default function Home() {
   return (
