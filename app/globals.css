@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #323232;
+  --light:rgb(188, 186, 186);
+  --main-color:#714bec;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", serif;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+@media (max-width:1110px){
+  .container{
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.textSection button a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .textSection{width: 30%;}
+ .textSection h2{color: #eedeac;}
+ .textSection h1{
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ .textSection p{
+    color: var(--light);
+    margin-bottom: 50px;
+}
+.textSection button{
+    width:80%;
+    padding: 2px 2px 2px 30px;
+    border-radius: 50px;
+    background: linear-gradient(to right,#b983f5,#7e41ff);
+    color: white; 
+}
+ .textSection button a span:last-of-type{
+    font-size: 2em;
+    background-color: white;
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 50px;
+}
+@media (max-width:992px){
+  .textSection{
+    width: 50%;
+  }
+}
+@media (max-width:776px){
+   .textSection{
+      width: 100%;
+      text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+.projects{
+    position: relative;
+    margin-top: 120px;
+}
+.projects #projectsContent .text h3{color: var(--light);}
+.projects #projectsContent ,.projects #projectsContent .companies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.projects #projectsContent .companies{
+    width: 60%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.projects #projectsContent .companies img{
+    width: 15%; 
+}
+@media (max-width:992px){
+    .projects #projectsContent .text,.projects #projectsContent .companies{
+        width: 100%;
+        text-align: center;
+    }
+    .projects #projectsContent .companies img{width: 20%; }
+}
+@media (max-width:776px){.projects #projectsContent .companies img{width: 50%; }}

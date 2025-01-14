@@ -1,0 +1,70 @@
+.contact{margin-top: 150px;}
+.contact #contactContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact .contactForm{
+    width: 40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px 60px;
+}
+.contact .contactForm h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.contact .contactForm form{
+    display: flex;
+    flex-direction: column;
+}
+.contact .contactForm form input:first-of-type,.contact .contactForm form textarea{
+    background-color:#f6f6f6;
+    padding: 10px;
+    border-radius: 50px;
+}
+.contact .contactForm form textarea{
+    min-height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.contact .contactForm form input:last-of-type{
+    width: 80%;
+    max-height: fit-content;
+    margin: auto;
+    padding: 10px 10px;
+    background: linear-gradient(to right,#b983f5,#7e41ff);
+    color: white; 
+    border-radius: 50px;
+}
+.contact .contactImage{
+    width: 40%;
+    background-image: url('../components/contact/images/bg-contact.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.contact .contactImage .image{
+    width: 80%;
+    margin: auto;
+    margin-right: -20px;
+}
+.contact footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.contact footer span{
+    color: var(--main-color);
+    text-decoration: underline;
+}
+@media (max-width:992px){
+    .contact .contactForm{
+        width: 90%;
+        order: 2;
+        margin-top: 60px;
+    }
+.contact .contactImage .image{width: 100%;}
+}
